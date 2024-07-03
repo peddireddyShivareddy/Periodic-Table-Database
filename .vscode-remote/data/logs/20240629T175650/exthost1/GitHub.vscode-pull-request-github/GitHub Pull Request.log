@@ -1,0 +1,66 @@
+2024-06-29 17:56:55.634 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-06-29 17:56:55.634 [info] Activation> Extension version: 0.90.0
+2024-06-29 17:56:56.674 [info] Looking for git repository
+2024-06-29 17:56:56.674 [info] Found 0 repositories during activation
+2024-06-29 17:56:56.674 [info] Git repository found, initializing review manager and pr tree view.
+2024-06-29 17:56:56.678 [info] Registering git provider
+2024-06-29 17:56:56.678 [info] Review+0> Validate state in progress
+2024-06-29 17:56:56.678 [info] Review+0> Validating state...
+2024-06-29 17:56:56.758 [info] Found GitHub remote for folder /workspace/project
+2024-06-29 17:56:56.760 [info] Trying to use globalState for assignableUsers.
+2024-06-29 17:56:56.768 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-06-29 17:56:56.769 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-06-29 17:56:56.839 [info] GlobalState does not exist for assignableUsers.
+2024-06-29 17:56:57.002 [info] Repo state for file:///workspace/project changed.
+2024-06-29 17:56:57.002 [info] Repo file:///workspace/project has already been setup.
+2024-06-29 17:57:09.897 [info] Review+0> Validate state in progress
+2024-06-29 17:57:09.897 [info] Review+0> Validating state...
+2024-06-29 17:57:09.973 [info] Found GitHub remote for folder /workspace/project
+2024-06-29 17:57:09.974 [info] Using in-memory cached assignable users.
+2024-06-29 17:57:09.981 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-06-29 17:57:09.981 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-06-29 17:57:14.932 [info] Review+0> Validate state in progress
+2024-06-29 17:57:14.932 [info] Review+0> Validating state...
+2024-06-29 17:57:15.006 [info] Found GitHub remote for folder /workspace/project
+2024-06-29 17:57:15.006 [info] Using in-memory cached assignable users.
+2024-06-29 17:57:15.014 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-06-29 17:57:15.014 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-06-29 18:00:05.508 [error] Error signing in to GitHub: Error: 5 NOT_FOUND: no token available
+2024-06-29 18:00:05.508 [error] Error: 5 NOT_FOUND: no token available
+	at t.callErrorFromStatus (/ide/extensions/gitpod-web/out/extension.js:2:271675)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:296882)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:292767)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:292212)
+	at /ide/extensions/gitpod-web/out/extension.js:2:376194
+	at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+	at a.makeUnaryRequest (/ide/extensions/gitpod-web/out/extension.js:2:296423)
+	at a.getToken (/ide/extensions/gitpod-web/out/extension.js:2:361597)
+	at node:internal/util:442:7
+	at new Promise (<anonymous>)
+	at bound  (node:internal/util:428:12)
+	at A.getToken (/ide/extensions/gitpod-web/out/extension.js:2:1045235)
+	at c.loginGitHub (/ide/extensions/gitpod-web/out/extension.js:2:1402967)
+	at c.createSession (/ide/extensions/gitpod-web/out/extension.js:2:1403217)
+	at c.$createSession (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:59527)
+	at E.S (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:5970)
+	at E.Q (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:5736)
+	at E.M (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:4762)
+	at E.L (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:3589)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:150:2282)
+	at l.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:176:8481)
+	at l.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at h.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:107:17638)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:107:16019)
+	at l.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at u.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:107:12248)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:107:11518)
+	at l.y (/ide/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at n.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:173:20477)
